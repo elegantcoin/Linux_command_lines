@@ -11,7 +11,7 @@
 </p>
 <br />
 
-Terminal终端:
+## Terminal终端:
 -   `Ctrl + Alt + T` 打开终端。
 -   `Ctrl + L` 清除屏幕(与clear稍微不同)。
 -   `Ctrl + S` 停止输出到屏幕。
@@ -24,7 +24,7 @@ Terminal终端:
 -   `Ctrl + Shift + W` 关闭terminal终端。
 -   `Ctrl + Shift + Q` 多个终端的关闭。
   
-光标
+## 光标
 -   `Ctrl + A` 当前活动行开头。
 -   `Ctrl + E` 当前活动行末尾。
 -   `Ctrl + XX` 当前活动行末尾和开头之前切换。
@@ -33,7 +33,7 @@ Terminal终端:
 -   `Ctrl + F` 一次前跳一个字符串
 -   `Ctrl + B` 一次回跳一个字符串
 
-文本操作
+## 文本操作
 -   `Ctrl + U` 剪切当前位置到行首，添到剪贴板。
 -   `Ctrl + K` 剪切当前位置到行尾，添到剪贴板。
 -   `Ctrl + W` 删除光标前的单词，添到剪贴板。
@@ -46,7 +46,7 @@ Terminal终端:
 -   `Alt + .` 打印最近一个命令。
 -   `Ctrl + T` 交换光标前的两个字符串
  
-历史命令行
+## 历史命令行
 -   `Ctrl + R` 搜索之前使用过的命令。
 -   `Ctrl + G` 退出`Ctrl + R`。
 -   `Ctrl + J` 将当前匹配的命令复制到命令行，不运行命令。
@@ -54,7 +54,7 @@ Terminal终端:
 -   `Ctrl + P` 显示上条执行的命令。
 -   `Ctrl + N` 显示下一条执行的命令。
 
-特殊操作
+## 特殊操作
 -   `Ctrl + H` 相当于删除键。
 -   `Ctrl + J` 相当于换行符。
 -   `Ctrl + M` 相当于回车键。
@@ -62,6 +62,11 @@ Terminal终端:
 -   `Ctrl + G` Bell 字符。
 -   `Ctrl + @` Null 字符。
 -   `Esc` Deadkey，相当于`Alt`。
+
+## 常用命令
+
+
+
 
   
   
