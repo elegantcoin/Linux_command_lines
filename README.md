@@ -63,8 +63,52 @@
 -   `Ctrl + @` Null 字符。
 -   `Esc` Deadkey，相当于`Alt`。
 
-## 常用命令
+## 文件目录
+-   `pwd` 当前目录。
+-   `cd -` 上个工作目录。
+-   `cd ~`或者`cd` Home主目录。
+-   `cd ..` 上级目录。
+-   `ls -l` 目录list信息。
+-   `ls -a` 目录list信息（包含隐藏文件）。
+-   `ls -lh` 目录list信息（文件大小以K，Mb显示）。
+-   `ls -lR` 目录list信息（包含次级目录）。
+-   `tree` 目录树结构。
 
+## 文件/夹操作
+-   `cp -p source destination` 复制文件。
+-   `cp -R source_Dir destination_Dir` 复制文件夹。
+-   `mv file1 file2` 移动文件。
+-   `rm -i filename` 删除文件（加删除确认）。
+-   `rm -R Dirname` 删除文件夹（加删除确认）。
+-   `mkdir dir-name` 新建文件夹。
+-   `touch filename` 新建文件。
+-   `chmod go=+r myfile` owner和group组增加读取权限。
+-   `chmod a +rwx myfile` 所有用户组添加读写执行权限。
+
+## 帮助信息
+-   `echo "hhhh"` 打印输出。
+-   `man <name>` <name> 的手册页。
+-   `man -k <keyword>` 所有包含<keyword> 的手册页。
+-   `help <name>` <name>的帮助信息。
+-   `info <name>` <name>的所有信息。
+-   `dpkg -l` 系统的所有安装包。
+-   `less /var/lib/dpkg/available` 系统的所有安装包简介。
+-   `whatis vim` 安装包的一行简介。    
+
+## 用户信息
+-   `hostname` 显示主机名。
+-   `whoami` 终端登录用户的用户名。
+-   `who` 显示登录的所有用户。 
+-   `w` 显示当前系统状态，时间，持续时间，当前登录系统的用户列表等用户信息。 
+-   `last` 最近使用过系统的用户。 
+-   `last root` 上次root用户登录时间。 
+-   `chmod` 更改权限。 
+
+## 进/线程信息
+-   `top` 设备资源占用情况。 
+-   `ps` 列出当前shell会话的进程。 
+-   `ps -u root` 所有root正在运行的进程和命令。
+-   `ps aux` 当前系统上所有用户的进程。
 
 
 
