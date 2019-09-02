@@ -85,6 +85,13 @@
 -   `touch filename` 新建文件。
 -   `chmod go=+r myfile` owner和group组增加读取权限。
 -   `chmod a +rwx myfile` 所有用户组添加读写执行权限。
+-   ``` shell
+sudo -i
+rm -rv /home/<your_username>/.local/*
+exit
+``` 删除.local下的文件夹。
+
+
 
 ## :fire:帮助信息
 -   `echo "hhhh"` 打印输出。
