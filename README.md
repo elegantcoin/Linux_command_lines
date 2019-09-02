@@ -73,6 +73,7 @@
 -   `ls -lh` 目录list信息（文件大小以K，Mb显示）。
 -   `ls -lR` 目录list信息（包含次级目录）。
 -   `tree` 目录树结构。
+-   `du -sh .[!.]*` 目录下文件信息。
 
 ## :fire:文件/夹操作
 -   `cp -p source destination` 复制文件。
@@ -109,6 +110,8 @@
 -   `ps` 列出当前shell会话的进程。 
 -   `ps -u root` 所有root正在运行的进程和命令。
 -   `ps aux` 当前系统上所有用户的进程。
+
+
 
 。。。。。。（待续）
 
