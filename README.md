@@ -123,12 +123,35 @@ exit
 ## :fire:查询文件
 -   `find ./Downloads -name '*.csv'` 查询./Downloads 文件夹下所有的csv文件。
 -   `grep pdf ./ Downloads/config.json` 查询config.json文件中有pdf的行。
--   `grep -R pdf ./ Downloads` 查询./Downloads 文件夹下有pdf的行,用`-R`(recursively)迭代查询 。
+-   `gr p -R pdf ./ Downloads` 查询./Downloads 文件夹下有pdf的行,用`-R`(recursively)迭代查询 。
 
 ## :fire:处理文件
 -   `touch myFile.txt` 创建名为`myFile`的txt文件。
--   `touch myFile.txt` 创建名为`myFile`的txt文件。
--   `touch myFile.txt` 创建名为`myFile`的txt文件。
+-   `mv myFile.txt rename.txt` 重命名文件。
+-   `cat ./Downloads/config.json` 查看`config.json`文件内容。
+-   `less ./Downloads/config.json` 一页页查看`config.json`文件内容。
+-   `head ./Downloads/config.json` 查看`config.json`文件前几行。
+-   `tail ./Downloads/config.json` 查看`config.json`文件末尾几行。
+-   `vi ./Downloads/config.json` 编辑文件`config.json`。
+-   `nano ./Downloads/config.json` 也可以编辑文件`config.json`。
+
+## :fire:查看系统信息
+-   `lsb_release -a` 查看系统的版本 Codename等。
+-   `cat /etc/issue` 也可以查看系统的版本。
+-   `uname -a` 打印操作系统信息。
+-   `cat /etc/*release` 查看操作系统信息。
+
+## :fire:查看磁盘空间
+-   `df -h` 参看各分区情况。
+-   `du -sh *` 查看磁盘空间，`s`就是`summarize`，`h`就是`human-readable`。
+-   `du -sh .[!.]* *` 查看磁盘空间（包含隐藏文件）。
+-   `du -sch` 查看磁盘空间,增加了文件大小总计。
+-   `sudo du -sch /.[!.]* /*` 查看磁盘空间,识别大文件。
+-   `sudo du --threshold=1G -ch /.[!.]* /*` 识别大文件。
+
+
+
+
 
 
 。。。。。。（待续）
