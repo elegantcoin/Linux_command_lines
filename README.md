@@ -140,16 +140,22 @@ exit
 -   `cat /etc/issue` 也可以查看系统的版本。
 -   `uname -a` 打印操作系统信息。
 -   `cat /etc/*release` 查看操作系统信息。
+-   `lscpu` 查看系统CPU信息。
+-   `sudo lshw | less` 查看系统硬件信息。
+ 
 
 ## :fire:查看磁盘空间
--   `df -h` 参看各分区情况。
+-   `df -h` 查看各分区情况。
 -   `du -sh *` 查看磁盘空间，`s`就是`summarize`，`h`就是`human-readable`。
 -   `du -sh .[!.]* *` 查看磁盘空间（包含隐藏文件）。
 -   `du -sch` 查看磁盘空间,增加了文件大小总计。
 -   `sudo du -sch /.[!.]* /*` 查看磁盘空间,识别大文件。
 -   `sudo du --threshold=1G -ch /.[!.]* /*` 识别大文件。
 
-
+## :fire:查看网络
+-   `netstat -ntlp` 参看网络服务器TCP套接口。
+-   `netstat -nulp` 参看网络服务器UDP套接口。
+-   `netstat -nxlp` 参看网络服务器Unix套接口。
 
 
 
