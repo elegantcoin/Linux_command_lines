@@ -120,6 +120,15 @@ exit
 -   `ps -u root` 所有root正在运行的进程和命令。
 -   `ps aux` 当前系统上所有用户的进程。
 
+## :fire:查询文件
+-   `find ./Downloads -name '*.csv'` 查询./Downloads 文件夹下所有的csv文件。
+-   `grep pdf ./ Downloads/config.json` 查询config.json文件中有pdf的行。
+-   `grep -R pdf ./ Downloads` 查询./Downloads 文件夹下有pdf的行,用`-R`(recursively)迭代查询 。
+
+## :fire:处理文件
+-   `touch myFile.txt` 创建名为`myFile`的txt文件。
+-   `touch myFile.txt` 创建名为`myFile`的txt文件。
+-   `touch myFile.txt` 创建名为`myFile`的txt文件。
 
 
 。。。。。。（待续）
