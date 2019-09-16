@@ -164,5 +164,5 @@ exit
 
   
   
-  
+  - 另外参见[Linux各目录的详细介绍](https://www.cnblogs.com/dengyungao/p/8426878.html)
   - 另外参见[命令行的艺术]https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md
